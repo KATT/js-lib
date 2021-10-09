@@ -4,8 +4,8 @@
   "scripts": {
     "prepare": "husky install",
     "build-prod": "build-prod-esm-cjs",
-    "docs-serve": "vuepress dev docs",
-    "docs-build": "vuepress build docs"
+    "docs-serve": "vitepress dev docs --open",
+    "docs-build": "vitepress build docs"
   },
   "dependencies": {
     "tslib": "^2.0.0"
@@ -20,8 +20,7 @@
     "patch-package": "^6.2.1",
     "prettier": "^2.1.2",
     "rxjs": "^7.0.1",
-    "vuepress": "^1.7.1",
-    "vuepress-plugin-typescript": "^0.3.1"
+    "vitepress": "^0.20.0"
   },
   "files": [
     "dist",
